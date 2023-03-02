@@ -13,7 +13,7 @@ const min = getMin((numbers));
 const max = getMax(numbers);
 const avg = getAvg(numbers);
 
-let numbersStr = `
+const numbersStr = `
     Numeros: ${numbers},
     Minimo: ${min},
     Maximo: ${max},
@@ -26,3 +26,5 @@ console.log(bgWhite(`Numeros: ${numbers}`))
 console.log(bgWhite(yellow(`Minimo: ${min}`)))
 console.log(bgWhite(red(`Maximo: ${max}`)))
 console.log(bgWhite(green(`Promedio: ${avg}`)))
+
+//Pasar por consola los parametros
