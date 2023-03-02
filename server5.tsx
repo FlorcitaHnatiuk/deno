@@ -1,4 +1,4 @@
-import { yellow, green, red, bgWhite, bgYellow, bgRed, white } from "https://deno.land/std@0.100.0/fmt/colors.ts";
+import { yellow, green, red, bgWhite } from "https://deno.land/std@0.100.0/fmt/colors.ts";
 
 const getMin = (numbers: number[]) => Math.min(...numbers)
 const getMax = (numbers: number[]) => Math.max(...numbers)
