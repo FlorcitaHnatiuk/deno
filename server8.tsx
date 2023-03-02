@@ -7,7 +7,7 @@ const revertirFrase = (frase: any) => {
 serve(req => {
     console.log(req)
     const url = new URL(req.url)
-    let frase = url.searchParams.get('frase') ? url.searchParams.get('frase') : '';
-    let fraseInversa = revertirFrase(frase)
+    const frase = url.searchParams.get('frase') ? url.searchParams.get('frase') : '';
+    const fraseInversa = revertirFrase(frase)
     return new Response(fraseInversa)
 }, { port:3005});
