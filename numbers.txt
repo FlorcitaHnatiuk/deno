@@ -1,0 +1,5 @@
+
+    Numeros: 1,2,3,4,5,
+    Minimo: 1,
+    Maximo: 5,
+    Promedio: 3
